@@ -40,7 +40,7 @@ foreach (var rotation in rotations)
 
             if (currentValue == max)
             {
-                currentValue = min;
+                counter++;
             }
         }
     }
@@ -55,16 +55,11 @@ foreach (var rotation in rotations)
 
             currentValue--;
 
-            if (currentValue == min && i > 0)
+            if (currentValue == min)
             {
-                currentValue = max;
+                counter++;
             }
         }
-    }
-
-    if (currentValue == min || currentValue == max)
-    {
-        counter++;
     }
 }
 
