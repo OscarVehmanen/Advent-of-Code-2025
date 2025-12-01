@@ -18,3 +18,5 @@ x86/
 ## Visual Studio cache/options
 .vscode/
 *.code-workspace
+
+input.txt
